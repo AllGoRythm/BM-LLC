@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -99,7 +103,6 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -200,10 +203,12 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
+  position: relative;
+  height: 100%;
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
