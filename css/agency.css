@@ -146,6 +146,7 @@ fieldset[disabled] .btn-xl.active {
   padding: 0;
 }
 #mainNav .container .navbar-brand {
+  padding-top: 0.5rem;
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
@@ -195,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 5px 0;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    padding: 0.65em 0;
+    /*padding: 0.65em 0;*/
     font-size: 1.25em;
   }
 }

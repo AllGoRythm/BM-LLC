@@ -27,8 +27,10 @@
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $("#brand").attr("src", "img/logos/pinw64.png").css("height", "40px");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $("#brand").attr("src", "img/logos/pin64.png").css("height", "64px");;
         }
     });
 
