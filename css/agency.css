@@ -234,7 +234,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -242,7 +242,7 @@ header .intro-text .intro-heading {
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -250,6 +250,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
+    margin-bottom: 40px;
   }
 }
 section {
