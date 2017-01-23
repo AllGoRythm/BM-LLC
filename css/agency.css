@@ -7,9 +7,6 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.text-muted {
-  color: #777777 !important;
-}
 .text-primary {
   color: #5dd96a !important;
 }
@@ -43,10 +40,10 @@ h6 {
   background-color: #B5EDBB;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 .bg-darkest-gray {
-  background-color: #222222;
+  background-color: #5fba8c;
 }
 .btn-primary {
   color: white;
@@ -142,7 +139,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 #mainNav {
-  background-color: #222222;
+  background-color: #40956a;
   border-color: transparent;
 }
 #mainNav .container {
@@ -202,7 +199,7 @@ svg:hover {
     padding: 1.2em 0.4em !important;
   }
   #mainNav.navbar-shrink {
-    background-color: #222222;
+    background-color: #40956a;
     padding: 5px 0;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -541,7 +538,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
+  background-color: #5fba8c;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -570,27 +567,27 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  color: #eeeeee;
+  color: #ffffff;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  color: #eeeeee;
+  color: #ffffff;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  color: #eeeeee;
+  color: #ffffff;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  color: #eeeeee;
+  color: #ffffff;
 }
 section#contact .text-danger {
   color: #e74c3c;
@@ -619,7 +616,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #5fba8c;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -693,7 +690,7 @@ ul.social-buttons li a:active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #222222;
+  background-color: #5fba8c;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -704,7 +701,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #222222;
+  background-color: #5fba8c;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
