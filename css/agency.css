@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'strange';
+  src: url('../vendor/fonts/strange.ttf') format('truetype');
+}
 html,
 body {
   height: 100%;
@@ -237,8 +241,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*text-transform: uppercase;*/
+  font-family: "strange", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -246,7 +249,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 200px;
+    padding-top: 120px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -257,11 +260,10 @@ header .intro-text .intro-heading {
     margin-bottom: 30px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*text-transform: uppercase;*/
+    font-family: "strange", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 200px;
+    line-height: 200px;
     margin-bottom: 40px;
   }
 }
