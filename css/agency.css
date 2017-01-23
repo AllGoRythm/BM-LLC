@@ -179,6 +179,7 @@ fieldset[disabled] .btn-xl.active {
 }
 svg {
   height: 64px;
+  transform: rotate(-19deg);
   transition: all ease 0.3s;
 }
 svg:hover {
@@ -599,12 +600,12 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  padding: 25px 0;
+  padding: 20px 0;
   text-align: center;
 }
 footer span.copyright {
   font-size: 90%;
-  line-height: 40px;
+  line-height: 60px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   text-transform: none;
@@ -612,10 +613,14 @@ footer span.copyright {
 footer ul.quicklinks {
   font-size: 90%;
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 60px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   text-transform: none;
+}
+footer object {
+  height: 60px;
+  transform: rotate(-19deg);
 }
 ul.social-buttons {
   margin-bottom: 0;
