@@ -207,7 +207,7 @@ svg:hover {
   }
   #mainNav.navbar-shrink .navbar-brand {
     /*padding: 0.65em 0;*/
-    font-size: 1.25em;
+    font-size: 0px;
   }
 }
 header {
