@@ -176,6 +176,13 @@ fieldset[disabled] .btn-xl.active {
 #mainNav .container .navbar-nav .nav-item .nav-link.active {
   color: #5dd96a;
 }
+svg {
+  height: 64px;
+  transition: all ease 0.3s;
+}
+svg:hover {
+  fill: #5dd96a;
+}
 @media (min-width: 768px) {
   #mainNav {
     background-color: transparent;

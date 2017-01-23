@@ -115,6 +115,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+svg {
+    height: 64px;
+    transition: all ease 0.3s;
+    &:hover {
+        fill: @theme-primary;
+    }
+}
+
 @media(min-width:768px) {
     #mainNav {
         background-color: transparent;

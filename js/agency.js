@@ -27,10 +27,12 @@
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
-            $("#brand").attr("src", "img/logos/pinw64.png").css("height", "40px");
+            //$("#brand").attr("src", "img/logos/pinw64.png").css("height", "40px");
+            $('svg').attr('fill', 'white').css("height", "40px");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
-            $("#brand").attr("src", "img/logos/pin64.png").css("height", "64px");;
+            //$("#brand").attr("src", "img/logos/pin64.png").css("height", "64px");
+            $('svg').attr('fill', 'black').css("height", "64px");
         }
     });
 
