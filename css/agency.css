@@ -191,9 +191,13 @@ svg:hover {
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
+    padding-top: 0rem;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  #mainNav .container .navbar-brand {
+    padding-top: 0;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.2em 0.4em !important;
@@ -203,7 +207,7 @@ svg:hover {
     padding: 5px 0;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    /*padding: 0.65em 0;*/
+    padding-top: 0.5rem;
     font-size: 0px;
   }
 }
@@ -219,7 +223,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: black;
 }
 header .intro-text {
   padding-top: 100px;

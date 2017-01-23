@@ -133,9 +133,15 @@ svg {
         border: none;
         .navbar-brand {
             font-size: 1.75em;
+            padding-top: 0rem;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
+        }
+        .container {
+            .navbar-brand {
+                padding-top:0;
+            }
         }
         .navbar-nav {
             .nav-item {
@@ -148,7 +154,7 @@ svg {
             background-color: @gray-base;
             padding: 5px 0;
             .navbar-brand {
-                /*padding: 0.65em 0;*/
+                padding-top: 0.5rem;
                 font-size: 0px;
             }
         }
@@ -164,7 +170,7 @@ header {
     background-position: center bottom;
     .background-cover;
     text-align: center;
-    color: white;
+    color: black;
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
